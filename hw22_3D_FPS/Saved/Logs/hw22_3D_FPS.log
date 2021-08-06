@@ -1199,3 +1199,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.08.06-01.42.10:227][457]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/map/hw22_FPS_BuiltData.hw22_FPS_BuiltData
 [2021.08.06-01.42.10:227][457]LogContentValidation: Display: 正在验证World /Game/map/hw22_FPS.hw22_FPS
 [2021.08.06-01.42.11:123][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.08.06-01.49.51:470][274]LogTemp: Repeating last play command: 新建编辑器窗口（编辑器中运行）
+[2021.08.06-01.49.51:478][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.06-01.49.51:478][274]PIE: New page: PIE会话：hw22_FPS（2021年8月6日 下午5:49:51）
+[2021.08.06-01.49.51:478][274]LogPlayLevel: Creating play world package: /Game/map/UEDPIE_0_hw22_FPS
+[2021.08.06-01.49.51:493][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015763s)
+[2021.08.06-01.49.51:496][274]LogAIModule: Creating AISystem for world hw22_FPS
+[2021.08.06-01.49.51:496][274]LogPlayLevel: PIE: World Init took: (0.001895s)
+[2021.08.06-01.49.51:496][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/map/hw22_FPS.hw22_FPS to /Game/map/UEDPIE_0_hw22_FPS.hw22_FPS (0.017969s)
+[2021.08.06-01.49.51:512][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.08.06-01.49.51:514][274]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.06-01.49.51:515][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.06-01.49.51:515][274]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.06-01.49.51:515][274]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.06-01.49.51:518][274]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.06-01.49.51:518][274]LogAudioMixer: Display: 1: FrontRight
+[2021.08.06-01.49.51:606][274]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2021.08.06-01.49.51:607][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.06-01.49.51:607][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.06-01.49.51:607][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.06-01.49.51:607][274]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.06-01.49.51:607][274]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.06-01.49.51:607][274]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.06-01.49.51:623][274]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.06-01.49.51:623][274]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.06-01.49.51:623][274]LogInit: FAudioDevice initialized.
+[2021.08.06-01.49.51:623][274]LogAudio: Display: Audio Device (ID: 6) registered with world 'hw22_FPS'.
+[2021.08.06-01.49.51:682][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.06-01.49.51:682][274]LogLoad: Game class is 'BP_Game_mode_C'
+[2021.08.06-01.49.51:687][274]LogWorld: Bringing World /Game/map/UEDPIE_0_hw22_FPS.hw22_FPS up for play (max tick rate 60) at 2021.08.06-09.49.51
+[2021.08.06-01.49.51:688][274]LogWorld: Bringing up level for play took: 0.004627
+[2021.08.06-01.49.51:688][274]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.08.06-01.49.51:695][274]PIE: 登陆的服务器
+[2021.08.06-01.49.51:697][274]PIE: PIE总开始时间：0.223秒。
+[2021.08.06-01.50.58:530][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.06-01.50.58:530][858]LogWorld: BeginTearingDown for /Game/map/UEDPIE_0_hw22_FPS
+[2021.08.06-01.50.58:531][858]LogSlate: Window 'hw22_3D_FPS预览[NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.06-01.50.58:555][858]LogWorld: UWorld::CleanupWorld for hw22_FPS, bSessionEnded=true, bCleanupResources=true
+[2021.08.06-01.50.58:556][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.06-01.50.58:567][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.06-01.50.58:591][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.06-01.50.58:611][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.06-01.50.58:612][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.06-01.50.58:645][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.08.06-01.50.58:679][859]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.08.06-01.52.55:211][296]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{970f9c93-42c5-44b5-97da-c8143a1b764c}.
+[2021.08.06-01.52.55:211][296]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.06-01.52.55:234][296]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.06-01.52.55:234][296]LogAudioMixer: Display: 1: FrontRight
